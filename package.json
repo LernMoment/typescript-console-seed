@@ -7,7 +7,8 @@
     "mon": "nodemon build/bowlingApp.js",
     "postinstall": "typings install",
     "tsc": "tsc",
-    "tsc:w": "tsc -w"
+    "tsc:w": "tsc -w",
+    "lint": "tslint --project ."
   },
   "author": "Jan Suchotzki, www.LernMoment.de",
   "license": "CC0-1.0",
