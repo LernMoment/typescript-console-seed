@@ -4,7 +4,7 @@
   "description": "Provides a base development setup for console apps in typescript",
   "scripts": {
     "start": "tsc && concurrently \"npm run tsc:w\" \"npm run mon\" ",
-    "mon": "nodemon build/bowlingApp.js",
+    "mon": "nodemon build/hello-seed.js",
     "postinstall": "typings install",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
