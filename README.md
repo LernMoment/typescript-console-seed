@@ -1,8 +1,16 @@
 ## LernMoment's TypeScript Startprojekt
 
+> Hinweis: möchtest du nur ein paar Zeilen TypeScript schreiben, dann ist es einfacher den [TypeScript Playground](http://www.typescriptlang.org/play/) zu verwenden. Da brauchst du nichts lokal zu installieren.
+
 Gerade um TypeScript zu lernen mache ich häufig einige Übungsaufgaben bei denen ich einfach nur eine Art Konsolenprogramm erstelle. Um die Entwicklung möglichst einfach zu halten spare ich somit den Webserver und sonstige Build-Werkzeuge ein. Dieses Projekt dient als Basis für genau solche Übungen.
 
 Du kannst dieses Projekt entweder direkt von der Konsole, also lediglich mit einem Texteditor, verwenden, oder auch in einer Entwicklungsumgebung wie [VS Code](https://code.visualstudio.com/).
+
+### Voraussetzungen
+
+Möchtest du das Projekt direkt von der Konsole verwenden, dann brauchst du lediglich `node` inkl. `npm` auf deinem Rechner installiert haben.
+
+Falls du eine Entwicklungsumgebung wie VS Code verwenden möchtest, brauchst du zusätzlich noch TypeScript. Das kannst du dir mit `npm install -g typescript` installieren. Dann würde ich dir auch empfehlen `tslint` global zu installieren (`npm install -g tslint`). Um `tslint` direkt in VS Code zu verwenden gibt es die [TSLint extension](https://marketplace.visualstudio.com/items?itemName=eg2.tslint) von Erich Gamma! 
 
 ### Ein Projekt starten
 
